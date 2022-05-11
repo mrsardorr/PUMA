@@ -22,11 +22,18 @@ button{
 }
 /* ========================header  */
 header{
-    background-image: url(img/BGheader.png);
+    background-image: url(img/headerBGNEW.png);
     padding: 40px 0px 155px 0px;
     background-repeat: no-repeat;
     /* background-size: cover; */
     height: 649px;
+    position: relative;
+}
+header .krosovki{
+    position: absolute;
+    right: 11.46%;
+    top: 50%;
+    transform: translateY(-40%);
 }
 header .hed{
     position: relative;
@@ -53,7 +60,8 @@ header nav ul li a{
     font-size: 16px;
     line-height: 160%;    
     color: #1A0A03 !important;
-    margin-right: 40px !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
 }
 header nav ul li a:hover{
     font-weight: 500;
@@ -108,6 +116,7 @@ header .settings{
     align-items: center;
     z-index: 999;
     padding: 0px 30px;
+    padding-right: 70px;
 }
 header .settings h3{
     width: 48px;
@@ -218,8 +227,8 @@ header .settings button{
     background: url(img/videopartBACKEND.png);
     border-radius: 10px;
     z-index: 1;
-    top: -20%;
-    right: -7%;
+    top: -18%;
+    right: -6%;
 }
 
 /* ======video  */
@@ -511,6 +520,7 @@ header .settings button{
 }
 .Testimonials .bottom{
     background-color: rgba(129, 168, 218, 0.1);
+    border-radius: 0px 10px 10px 0px;
 }
 .Testimonials .bottom .left{
     padding: 65px 65px 63px 63px;
@@ -710,4 +720,485 @@ footer h1{
 
 input {
     outline: none;
+}
+
+
+
+
+@media (max-width:1399px) {
+    .row{
+        width: auto;
+    }
+    .videopart .front{
+        right: 2%;
+        left: -600px
+    }
+    .feature .box{
+        width: 310px;
+    }
+    header .settings{
+        width: 750px;
+        padding: 0px 30px !important;
+    }
+}
+@media (max-width:1199px) {
+    .gallary .fourthing img{
+        width: 100%;
+        height: 250px;
+    }
+    .gallary .fourthing .col-lg-5{
+        margin-bottom: 40px;
+    }
+    .gallary .fourthing h3{
+        font-size: 30px;
+        width: auto !important;
+    }
+    .gallary .fourthing h4{
+        font-size: 19px;
+    }
+    .gallary .fourthing button{
+        margin-top: 10px;
+    }
+    .Testimonials .testimiontopleftimg {
+        width: 450px;
+        height: 323px;
+    }
+    .Testimonials .bottom img{
+        width: 393px;
+        height: 273px;
+    }
+    .Testimonials .bottom .left{
+        padding: 35px 65px 41px 63px;
+    }
+    .Testimonials .bottom .left p{
+        font-size: 14px; 
+        width: auto;
+        height: auto;
+    }
+    .Testimonials .bottom .left input{
+        width: 310px;
+    }
+    footer .contactus input{
+        width: 200px;
+    }
+    footer .contactus button{
+        height: 51px;
+    }
+    .feature .box{
+        padding: 46px 0px;
+        height: 400px;
+        width: 260px;
+    }
+    /* .feature .box:first-child{
+        width: 100px;
+    } */
+    .feature .box p{
+        width: 215px;
+    }
+    .feature .box .margin-auto {
+        width: 100px;
+    }
+    .videopart .front{
+        right: 2%;
+        left: -529px;
+        width: 489px;
+        height: 262px;
+    }
+    .videopart .front a img{
+        width: 80px;
+    }
+    .videopart .back {
+        width: 506px;
+        height: 272px;
+        top: -14%;
+        right: -6%;
+    }
+    header .settings{
+        width: 730px;
+    }
+}
+
+@media (max-width:991px) {
+    .Testimonials .testimiontopleftimg{
+        width: 100%;
+        display: block;
+        height: 315px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .Testimonials .top h3{
+        width: auto;
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .Testimonials .bottom img{
+        width: 100%;
+        height: 320px;
+    }
+    .Testimonials .bottom{
+        border-radius: 10px;
+    }
+    .Testimonials .bottom img{
+        border-radius: 10px 10px 0px 0px;
+    }
+    header .krosovki {
+        z-index: 10;
+    }
+    header .hed{
+        z-index: 20;
+    }
+    header .settings{
+        width: 700px;
+    }
+    .Testimonials .top{
+        margin-bottom: 80px;
+    }
+    .feature .box{
+        padding: 20px 0px;
+        height: 325px;
+        width: 198px;
+    }
+    .feature .box .margin-auto{
+        width: 85px;
+    }
+    .feature .box h3{
+        font-size: 18px;
+    }
+    .feature .box p{
+        width: auto;
+        font-size: 12px;
+    }
+    .feature .box a{
+        width: auto;
+        font-size: 14px;
+    }
+    .videopart h2{
+        margin-top: -33px;
+    }
+    .videopart h1{
+        width: 123px;
+        font-size: 25px;
+    }
+    .videopart p{
+        width: 159px;
+        font-size: 15px;
+    }
+    header nav button{
+        margin-left: 60px;
+    }
+    .navbar-collapse{
+        position: relative;
+        left: -4.5%;
+    }
+    .navbar-light .navbar-toggler{
+        color: transparent !important;
+        border-color: transparent !important;
+    }
+    .navbar-toggler-icon{
+        width: 2.5rem !important;
+    }
+    footer .support{
+        margin-top: 60px;
+    }
+    footer .contactus{
+        margin-top: 60px;
+    }
+    footer .contactus input{
+        width: 185px;
+    }
+}
+
+@media (max-width:767px) {
+    footer{
+        padding-top: 40px;
+    }
+    footer .puma .logo{
+        margin: auto;
+        display: block;
+        width: 120px;
+        height: 58px;
+    }
+    footer .puma .pumaa2{
+        margin: auto !important;
+        width: auto !important;
+        font-size: 22px !important;
+    }
+    footer .puma .pumaa3{
+        margin: auto;
+        width: auto;
+        font-size: 21px;
+    }
+    .d-flex{
+        margin: auto;
+        display: block;
+        align-items: center;
+    }
+    footer h2{
+        margin: auto ;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        width: auto;
+        font-size: 40px;
+    }
+    footer .ourservices a{
+        margin: auto;
+        width: auto;
+        font-size: 21px;
+    }
+    footer .ourservices{
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer .support{
+        margin-top: 30px;
+        text-align: center;
+    }
+    footer .contactus {
+        margin-top: 30px;
+        text-align: center;
+    }
+    footer .contactus p{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    header .justinfo h1{
+        text-shadow: 4px 3px 30px black;
+    }
+    header .justinfo p{
+        text-shadow: 4px 3px 30px black;
+    }
+    header .settings{
+        width: 510px;
+    }
+    header .settings button{
+        width: 56px;
+        height: 74px;
+        font-size: 15px;
+        transform: translateX(-35%) translateY(-40%);
+    }
+    .videopart{
+        padding: 155px 0px 100px 0px;
+    }
+    .videopart .top h2{
+        font-size: 40px;
+        width: auto;
+        padding-bottom: 50px;
+    }
+    .videopart .top h1{
+        font-size: 30px;
+        width: auto;
+    }
+    .videopart .top{
+        text-align: center;
+    }
+    .videopart .back{
+        transform: translateY(-30px);
+    }
+    .feature h1{
+        font-size: 30px;
+    }
+    .feature h2{
+        font-size: 36px;
+        width: auto;
+        padding-bottom: 50px;
+    }
+    .d-flex{
+        margin-top: 52px;
+    }
+    .feature .box{
+        
+        width: 297px;
+    }
+    .feature .box .margin-auto{
+        width: 110px;
+    }
+    .feature .box h3{
+        font-size: 23px;
+    }
+    .feature .box p{
+        font-size: 16px;
+    }
+    .feature .box a{
+        font-size: 18px;
+    }
+    .feature .box{
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    .gallary h1{
+        font-size: 40px;
+    }
+    .gallary .Categories ul li{
+        font-size: 15px;
+    }
+    .gallary .Categories ul li a{
+        font-size: 14px;
+    }
+    .gallary .d-flex{
+        margin-top: 30px;
+    }
+    .gallary .fourthing img{
+        height: 270px;
+    }
+    .gallary{
+        padding-bottom: 60px;
+    }
+    .Testimonials .bottom .left input{
+        width: 290px;
+    }
+    .gallary .Categories ul li a{
+        margin: 0px 15px;
+    }
+    .feature h1{
+        width: auto;
+    }
+    .gallary h1{
+        text-align: center;
+    }
+    header .settings{
+        padding-bottom: 45px !important;
+    }
+    
+}
+
+@media (max-width:576px) {
+    header .justinfo h1{
+        font-size: 52px;
+        width: auto;
+    }
+    header .justinfo p{
+        width: auto;
+    }
+    header .krosovki{
+        /* right: -3.54%; */
+    }
+    header .settings{
+        display: none;
+    }
+    .videopart{
+        padding: 50px 0px 100px 0px;
+    }
+    .videopart .bottom{
+        transform: translateY(50px);
+    }
+    .videopart .front{
+        right: 2%;
+        left: -492px;
+        width: 437px;
+        height: 262px;
+    }
+    .videopart .back{
+        transform: translateY(-26px) translateX(-14px);
+        width: 454px;
+        height: 264px;
+    }
+    .gallary .Categories ul li{
+        margin-top: 10px;
+    }
+    .gallary .Categories ul li a{
+        font-size: 16px;
+    }
+    .gallary h2{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+    }
+    .feature{
+        margin-bottom: 80px;
+    }
+    .gallary h1{
+        width: auto;
+        font-size: 25px;
+        height: auto;
+    }
+    .gallary .d-flex{
+        margin-top: 10px;
+    }
+    footer h1{
+        width: auto;
+    }
+    footer .puma .pumaa2{
+    text-align: center;
+    margin: auto !important;
+    width: auto !important;
+    font-size: 17px !important;
+    }
+    footer .puma .pumaa3{
+        text-align: center;
+    }
+    .Testimonials .bottom img{
+        height: 192px;
+    }
+    .Testimonials .bottom .left h2{
+        width: auto;
+        font-size: 21px;
+        margin-left: 24px;
+    }
+    .Testimonials .bottom .left p{
+        font-size: 12px;
+        margin-left: 18px;
+    }
+    .Testimonials .bottom .left input{
+        width: 235px;
+        border-right:1px solid black;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 33px;
+    }
+    .Testimonials .bottom .left button{
+        margin: auto;
+        display: inherit;
+        margin-top: 15px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .Testimonials .top h3{
+        font-size: 18px;
+    }
+    .Testimonials .top p{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .Testimonials .top h4{
+        width: auto;
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .Testimonials .top h5{
+        width: auto;
+        margin-top: 20px;
+    }
+    .videopart p{
+        display: none;
+
+    }
+    .Testimonials .testimiontopleftimg{
+        height: 200px;
+    }
+    .Testimonials .bottom .left{
+        padding: 0 !important;
+    }
+    .videopart {
+        display: none;
+    }
+    .feature{
+        padding-top: 20px;
+    }
+    
+}
+
+
+@media (max-width:505px) {
+    .videopart .front{
+        right: 2%;
+        left: -292px;
+        width: 311px;
+        height: 262px;
+    }
+    .videopart .back{
+        transform: translateY(-21px) translateX(40px);
+    width: 311px;
+    height: 264px;
+    }
 }
